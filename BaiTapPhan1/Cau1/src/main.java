@@ -40,7 +40,7 @@ public class main {
             intSet4.clear();
             intSet5.clear();
 
-            FileWriter fw1 = new FileWriter("F:\\VCCrop\\ThucTap\\BaiTap\\intSet1.txt");
+            FileWriter fw1 = new FileWriter("D:\\Moon\\java\\OnTapJava\\BaiTapPhan1\\intSet1.txt");
             fw1.write(String.valueOf(intSet1));
             fw1.close();
             while (intSet3.size() < 400000 || intSet4.size() < 400000 || intSet5.size() < 400000 || intSet6.size() < 400000) {
@@ -60,7 +60,7 @@ public class main {
             intSet5.clear();
             intSet6.clear();
 
-            FileWriter fw2 = new FileWriter("F:\\VCCrop\\ThucTap\\BaiTap\\intSet2.txt");
+            FileWriter fw2 = new FileWriter("D:\\Moon\\java\\OnTapJava\\BaiTapPhan1\\intSet2.txt");
             fw2.write(String.valueOf(intSet2));
             fw2.close();
 

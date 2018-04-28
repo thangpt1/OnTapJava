@@ -16,6 +16,7 @@ import java.util.Calendar;
 
 public class main {
     public static void main(String[] args) {
+
         Document doc;
         String s="";
         try {
@@ -25,7 +26,7 @@ public class main {
 
 
             // tạo đường dẫn
-            File apath=new File("D:\\Moon\\java\\Cau2\\"+dateFormat.format(calendar.getTime())+".txt");
+            File apath=new File("D:\\Moon\\java\\OnTapJava\\BaiTapPhan2\\Cau2\\"+dateFormat.format(calendar.getTime())+".txt");
 
             //tạo thư mục cha nếu cha chưa tồn tại
             apath.getParentFile().mkdirs();
@@ -110,7 +111,7 @@ public class main {
 //                    System.out.println("\t"+div.tagName()+": "+div.text());
                     s+="\n\t*"+div.tagName()+": "+div.text();
             }
-
+            System.out.println(s);
             dos.writeBytes(convertToUTF8(s));
         } catch (IOException e) {
             e.printStackTrace();
